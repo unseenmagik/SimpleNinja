@@ -2,17 +2,17 @@
 	"logAll": "yes",
 	"botSupport": "no",
 	
-	"botName": "SpoofNinja",
-	"botID": "<DUMMY_ACCOUNT_ID_NUMBER>",
+	"botName": "EKANS EYE",
+	"botID": "313634924366397444",
 	"botAvatar": "https://raw.githubusercontent.com/JennerPalacios/SimpleSpoofNinja/master/img/NinjaAvatar.png",
-	"token": "<DUMMY_ACCOUNT_TOKEN>",
+	"token": "MzEzNjM0OTI0MzY2Mzk3NDQ0.Dffugw.afRuxdwYBqZ9UixtM1LVX-nCM6o",
 	
-	"ownerID": "<MY_OWN_ID_IN_CASE_I_DONT_HAVE_ROLE>",
+	"ownerID": "289760722622349312",
 	
 	"myServer": { 
-		"server": "<MY_SERVERS_ID_NUMBER>", 
-		"name": "<MY_SERVERS_NAME_NO_SPACE>",
-		"invite": "<MY_SERVERS_INVITE_LINK>"
+		"server": "279117936856268801", 
+		"name": "ROGUE NATION - CentCom",
+		"invite": "https://discord.gg/Buu4K2v"
 	},
 	
 	"goodColor": "#00FF00",
@@ -21,12 +21,12 @@
 	"snipeImg": "https://raw.githubusercontent.com/JennerPalacios/SimpleSpoofNinja/master/img/User-Spoof.png",
 	"honorImg": "https://raw.githubusercontent.com/JennerPalacios/SimpleSpoofNinja/master/img/User-Badge.png",
 	
-	"cmdChanID": "<CHANNEL_ID_NUMBER_WHERE_I_WILL_LISTEN_TO_FOR_COMMANDS_(IE:_#MODLOG/#SPOOFERS)>",
-	"webhook": "<WEBHOOK_URL_OF_THE_CHANNEL_TO_POST_ON_(IE:_#MODLOG)>",
+	"cmdChanID": "#mutuallyassureddestruction",
+	"webhook": "#mutuallyassureddestruction",
 	
 	"adminRoleName": "<TEXT_ROLE_I_GAVE_TO_ADMINS>",
 	"modRoleName": "<TEXT_ROLE_I_GAVE_TO_MODERATORS>",
 	"whitelist": "<USER_ID_NUMBER_1> <USER_ID_NUMBER_2> <USER_ID_NUMBER_3> NUMBERS SEPARATED BY SPACE, NO COMMAS!!!",
 	
-	"prefix": "!"
+	"prefix": ">"
 }
