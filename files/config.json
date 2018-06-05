@@ -2,17 +2,17 @@
 	"logAll": "yes",
 	"botSupport": "no",
 	
-	"botName": "EKANS EYE",
-	"botID": "313634924366397444",
+	"botName": "",
+	"botID": "",
 	"botAvatar": "https://raw.githubusercontent.com/JennerPalacios/SimpleSpoofNinja/master/img/NinjaAvatar.png",
-	"token": "MzEzNjM0OTI0MzY2Mzk3NDQ0.Dffugw.afRuxdwYBqZ9UixtM1LVX-nCM6o",
+	"token": "",
 	
-	"ownerID": "289760722622349312",
+	"ownerID": "",
 	
 	"myServer": { 
-		"server": "279117936856268801", 
-		"name": "ROGUE NATION - CentCom",
-		"invite": "https://discord.gg/Buu4K2v"
+		"server": "", 
+		"name": "",
+		"invite": ""
 	},
 	
 	"goodColor": "#00FF00",
@@ -21,8 +21,8 @@
 	"snipeImg": "https://raw.githubusercontent.com/JennerPalacios/SimpleSpoofNinja/master/img/User-Spoof.png",
 	"honorImg": "https://raw.githubusercontent.com/JennerPalacios/SimpleSpoofNinja/master/img/User-Badge.png",
 	
-	"cmdChanID": "#mutuallyassureddestruction",
-	"webhook": "#mutuallyassureddestruction",
+	"cmdChanID": "#",
+	"webhook": "#",
 	
 	"adminRoleName": "<TEXT_ROLE_I_GAVE_TO_ADMINS>",
 	"modRoleName": "<TEXT_ROLE_I_GAVE_TO_MODERATORS>",
