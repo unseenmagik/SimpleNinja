@@ -122,23 +122,7 @@ if(!Number.isInteger(parseInt(config.cmdChanID))){ return console.info(".\n[ERRO
 
 
 
-//
-//				SHARED WEBHOOK, TO KEEP TRACK HOW MANY PEOPLE USE THIS TOOL, FEEDBACK AND REQUESTS
-//									TURN IT OFF IN CONFIG » "botSupport"
-//
-const sharedWH=new Discord.WebhookClient("365806668119932928","xe5pRZUvE8ADXDBpNESBsfK7RXT9UmQVOzxaJTjwkj3nmo2IBJEbPlCCl0LJ3Ope77Fo");
-const whCollector=new Discord.WebhookClient("365826527822348290","Z0HAX79QHpNDkyK1hF_FVM5o0LcZ1-tFhoK1o2-HlWA6Ogk9P3MyA2vuGMm_Umyso-oA");
-	let sct=new Date(); let smo=sct.getMonth()+1;if(smo<10){smo="0"+smo;}let da=sct.getDate();if(da<10){da="0"+da;}let syr=sct.getFullYear();
-	let shr=sct.getHours();if(shr<10){shr="0"+shr;}let smin=sct.getMinutes();if(smin<10){smin="0"+smin;}let ssec=sct.getSeconds();if(ssec<10){ssec="0"+ssec;}
-	let wht="["+syr+"/"+smo+"/"+da+" @ "+shr+":"+smin+":"+ssec+"] ";sharedWH.send(wht+"Gratz! **"+config.myServer.name+"** started using **SpoofNinja**").catch(console.error);
-//
-//				CHECK IF INFO/WEBHOOK IS BEING SHARED
-//
-if(config.botSupport==="yes"){
-	sharedWH.send(wht+"Yay! **"+config.myServer.name+"** has joined the fight, has **SHARED** their info, and wants to stay up-to-date <(^.^<)... Awesome! we have received their info <(^.^)>")
-	whCollector.send(".\n"+wht+"**"+config.myServer.name+"** would like to get **UPDATES**!\n"
-		+" » Their Owner: <@"+config.ownerID+">\n » Their Invite: `"+config.myServer.invite+"`\n » Their WH ID:`"+webhookID+"`\n » Their WH Token: `"+webhookToken+"`\n.");
-}
+
 
 
 //
